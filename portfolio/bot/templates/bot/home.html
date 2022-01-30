@@ -1,0 +1,12 @@
+{% extends "bot/baselayout.html" %}
+{% block content %}
+<div class="container">
+
+    <div class="jumbotron">
+        <h3>Welcome! Sign In/Sign up </h3>
+      <br>  <a href="{% url 'login' %}" ><button > SIGN IN</button></a> New User? <a href="{% url 'Register' %}"><button>SIGNUP</button></a>
+
+    </div>
+</div>
+
+{% endblock %}
